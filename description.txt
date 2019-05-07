@@ -1,1 +1,1 @@
-Ragnarok Mok is a pretty cool mod, it does...this. Modify this file with a description of your mod.
+Ragnarok Mod adds miscellaneous things. This is a first attempt at a mod.
