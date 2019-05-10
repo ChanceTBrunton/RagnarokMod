@@ -1,0 +1,2 @@
+C:\Users\chanc\Documents\my games\Terraria\ModLoader\Mod Sources\RagnarokMod\obj\Debug\RagnarokMod.csprojAssemblyReference.cache
+C:\Users\chanc\Documents\my games\Terraria\ModLoader\Mod Sources\RagnarokMod\obj\Debug\RagnarokMod.csproj.CoreCompileInputs.cache
