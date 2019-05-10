@@ -35,6 +35,7 @@
   <ItemGroup>
     <Compile Include="Items\FissionBomb.cs" />
     <Compile Include="Items\MyFirstItem.cs" />
+    <Compile Include="Items\UraniumSteelPickaxe.cs" />
     <Compile Include="Projectiles\FissionBombProjectile.cs" />
     <Compile Include="RagnarokMod.cs" />
   </ItemGroup>
