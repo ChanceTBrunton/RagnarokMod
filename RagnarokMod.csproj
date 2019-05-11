@@ -33,11 +33,19 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Items\FissionBomb.cs" />
+    <Compile Include="Items\Armor\UraniumSteelBreastplate.cs" />
+    <Compile Include="Items\Armor\UraniumSteelLeggings.cs" />
+    <Compile Include="Items\Armor\UraniumSteelHelmet.cs" />
+    <Compile Include="Items\FissionBombItem.cs" />
     <Compile Include="Items\MyFirstItem.cs" />
+    <Compile Include="Items\Placeable\UraniumBarItem.cs" />
+    <Compile Include="Items\Placeable\UraniniteOreItem.cs" />
     <Compile Include="Items\UraniumSteelPickaxe.cs" />
     <Compile Include="Projectiles\FissionBombProjectile.cs" />
     <Compile Include="RagnarokMod.cs" />
+    <Compile Include="RagnarokWorld.cs" />
+    <Compile Include="Tiles\UraniumBarTile.cs" />
+    <Compile Include="Tiles\UraniniteOreTile.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
@@ -60,6 +68,18 @@
     <Reference Include="Terraria">
       <HintPath>C:\Program Files (x86)\Steam\steamapps\common\terraria\Terraria.exe</HintPath>
     </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Items\Weapons\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Items\FissionBombItem.png" />
+    <Content Include="Items\MyFirstItem.png" />
+    <Content Include="Items\Placeable\UraniniteOreItem.png" />
+    <Content Include="Items\Placeable\UraniumBarItem.png" />
+    <Content Include="Items\UraniumSteelPickaxe.png" />
+    <Content Include="Tiles\UraniniteOreTile.png" />
+    <Content Include="Tiles\UraniumBarTile.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

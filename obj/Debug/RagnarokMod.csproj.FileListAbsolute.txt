@@ -1,2 +1,12 @@
 C:\Users\chanc\Documents\my games\Terraria\ModLoader\Mod Sources\RagnarokMod\obj\Debug\RagnarokMod.csprojAssemblyReference.cache
 C:\Users\chanc\Documents\my games\Terraria\ModLoader\Mod Sources\RagnarokMod\obj\Debug\RagnarokMod.csproj.CoreCompileInputs.cache
+C:\Users\chanc\Documents\my games\Terraria\ModLoader\Mod Sources\RagnarokMod\bin\Debug\RagnarokMod.dll
+C:\Users\chanc\Documents\my games\Terraria\ModLoader\Mod Sources\RagnarokMod\bin\Debug\RagnarokMod.pdb
+C:\Users\chanc\Documents\my games\Terraria\ModLoader\Mod Sources\RagnarokMod\bin\Debug\Microsoft.Xna.Framework.dll
+C:\Users\chanc\Documents\my games\Terraria\ModLoader\Mod Sources\RagnarokMod\bin\Debug\Microsoft.Xna.Framework.Game.dll
+C:\Users\chanc\Documents\my games\Terraria\ModLoader\Mod Sources\RagnarokMod\bin\Debug\Microsoft.Xna.Framework.Graphics.dll
+C:\Users\chanc\Documents\my games\Terraria\ModLoader\Mod Sources\RagnarokMod\bin\Debug\Microsoft.Xna.Framework.Xact.dll
+C:\Users\chanc\Documents\my games\Terraria\ModLoader\Mod Sources\RagnarokMod\bin\Debug\Terraria.exe
+C:\Users\chanc\Documents\my games\Terraria\ModLoader\Mod Sources\RagnarokMod\obj\Debug\RagnarokMod.csproj.CopyComplete
+C:\Users\chanc\Documents\my games\Terraria\ModLoader\Mod Sources\RagnarokMod\obj\Debug\RagnarokMod.dll
+C:\Users\chanc\Documents\my games\Terraria\ModLoader\Mod Sources\RagnarokMod\obj\Debug\RagnarokMod.pdb
