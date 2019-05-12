@@ -38,12 +38,14 @@
     <Compile Include="Items\Armor\UraniumSteelHelmet.cs" />
     <Compile Include="Items\FissionBombItem.cs" />
     <Compile Include="Items\MyFirstItem.cs" />
+    <Compile Include="Items\Placeable\PaintingSummerBeautyItem.cs" />
     <Compile Include="Items\Placeable\UraniumBarItem.cs" />
     <Compile Include="Items\Placeable\UraniniteOreItem.cs" />
     <Compile Include="Items\UraniumSteelPickaxe.cs" />
     <Compile Include="Projectiles\FissionBombProjectile.cs" />
     <Compile Include="RagnarokMod.cs" />
     <Compile Include="RagnarokWorld.cs" />
+    <Compile Include="Tiles\PaintingSummerBeautyTile.cs" />
     <Compile Include="Tiles\UraniumBarTile.cs" />
     <Compile Include="Tiles\UraniniteOreTile.cs" />
   </ItemGroup>
@@ -73,11 +75,24 @@
     <Folder Include="Items\Weapons\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".gitignore" />
+    <Content Include="build.txt" />
+    <Content Include="description.txt" />
+    <Content Include="Items\Armor\UraniumSteelBreastplate.png" />
+    <Content Include="Items\Armor\UraniumSteelBreastplate_Arms.png" />
+    <Content Include="Items\Armor\UraniumSteelBreastplate_Body.png" />
+    <Content Include="Items\Armor\UraniumSteelBreastplate_FemaleBody.png" />
+    <Content Include="Items\Armor\UraniumSteelHelmet.png" />
+    <Content Include="Items\Armor\UraniumSteelHelmet_Head.png" />
+    <Content Include="Items\Armor\UraniumSteelLeggings.png" />
+    <Content Include="Items\Armor\UraniumSteelLeggings_Legs.png" />
     <Content Include="Items\FissionBombItem.png" />
     <Content Include="Items\MyFirstItem.png" />
+    <Content Include="Items\Placeable\PaintingSummerBeautyItem.png" />
     <Content Include="Items\Placeable\UraniniteOreItem.png" />
     <Content Include="Items\Placeable\UraniumBarItem.png" />
     <Content Include="Items\UraniumSteelPickaxe.png" />
+    <Content Include="Tiles\PaintingSummerBeautyTile.png" />
     <Content Include="Tiles\UraniniteOreTile.png" />
     <Content Include="Tiles\UraniumBarTile.png" />
   </ItemGroup>
