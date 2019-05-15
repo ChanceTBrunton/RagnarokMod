@@ -33,19 +33,23 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="DeathPepeUI.cs" />
     <Compile Include="Items\Armor\UraniumSteelBreastplate.cs" />
     <Compile Include="Items\Armor\UraniumSteelLeggings.cs" />
     <Compile Include="Items\Armor\UraniumSteelHelmet.cs" />
     <Compile Include="Items\FissionBombItem.cs" />
     <Compile Include="Items\MyFirstItem.cs" />
     <Compile Include="Items\Placeable\PaintingSummerBeautyItem.cs" />
+    <Compile Include="Items\Placeable\SmallPaintingItem.cs" />
     <Compile Include="Items\Placeable\UraniumBarItem.cs" />
     <Compile Include="Items\Placeable\UraniniteOreItem.cs" />
     <Compile Include="Items\UraniumSteelPickaxe.cs" />
     <Compile Include="Projectiles\FissionBombProjectile.cs" />
     <Compile Include="RagnarokMod.cs" />
+    <Compile Include="RagnarokPlayer.cs" />
     <Compile Include="RagnarokWorld.cs" />
     <Compile Include="Tiles\PaintingSummerBeautyTile.cs" />
+    <Compile Include="Tiles\SmallPaintingTile.cs" />
     <Compile Include="Tiles\UraniumBarTile.cs" />
     <Compile Include="Tiles\UraniniteOreTile.cs" />
   </ItemGroup>
@@ -92,7 +96,10 @@
     <Content Include="Items\Placeable\UraniniteOreItem.png" />
     <Content Include="Items\Placeable\UraniumBarItem.png" />
     <Content Include="Items\UraniumSteelPickaxe.png" />
+    <Content Include="Sounds\Item\NuclearLaunch.mp3" />
+    <Content Include="Sounds\Item\NuclearLaunchSound.wav" />
     <Content Include="Tiles\PaintingSummerBeautyTile.png" />
+    <Content Include="Tiles\SmallPaintingTile.png" />
     <Content Include="Tiles\UraniniteOreTile.png" />
     <Content Include="Tiles\UraniumBarTile.png" />
   </ItemGroup>

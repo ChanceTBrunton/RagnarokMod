@@ -9,35 +9,35 @@ using Terraria.ModLoader;
 
 namespace RagnarokMod.Items.Placeable
 {
-    public class UraniumBarItem : ModItem
+    public class SmallPaintingItem : ModItem
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("Uranium Bar");
-            Tooltip.SetDefault("WARNING: This product contains chemicals\n" +
-                                "known to the State of California to cause cancer\n" +
-                                "and birth defects or other reproductive harm.");
+            DisplayName.SetDefault("A smaller test painting.");
+            Tooltip.SetDefault("Insert placeholder text here.");
         }
         public override void SetDefaults()
         {
-            item.width = 24; // hitbox width
-            item.height = 24; // hitbox height
+            item.width = 48; // hitbox width
+            item.height = 32; // hitbox height
             item.useTime = 20; // Speed before reuse
             item.useAnimation = 20; // Animation Speed
             item.useStyle = 1; // broadsword
+            item.noUseGraphic = true;
+            
             item.value = 50;
             item.rare = 2;
             item.UseSound = SoundID.Item1;
             item.autoReuse = true;
             item.consumable = true;
-            item.createTile = mod.TileType("UraniumBarTile");
+            item.createTile = mod.TileType("SmallPaintingTile");
             item.maxStack = 999;
         }
 
         public override void AddRecipes()
         {
             ModRecipe recipe = new ModRecipe(mod);
-            recipe.AddIngredient(mod.ItemType("UraniumOreItem"), 4);
+            recipe.AddIngredient(mod.ItemType("UraniumBarItem"), 1);
             recipe.AddTile(TileID.Furnaces);
             recipe.SetResult(this);
             recipe.AddRecipe();
