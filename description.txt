@@ -1,1 +1,7 @@
-Adds a nuclear bomb as well as an extremely OP pickaxe.
+Includes:
+- Uranium
+- Uranium armor - definitely safe to use!
+- Nuclear bomb
+- Extremely OP pickaxe
+- Pepe on death screen - feels bad man
+- Some paintings
