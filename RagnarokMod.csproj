@@ -22,6 +22,7 @@
     <DefineConstants>DEBUG;TRACE</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -33,7 +34,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="DeathPepeUI.cs" />
+    <Compile Include="UI\DeathPepeUI.cs" />
     <Compile Include="Items\Armor\UraniumSteelBreastplate.cs" />
     <Compile Include="Items\Armor\UraniumSteelLeggings.cs" />
     <Compile Include="Items\Armor\UraniumSteelHelmet.cs" />
@@ -52,6 +53,7 @@
     <Compile Include="Tiles\SmallPaintingTile.cs" />
     <Compile Include="Tiles\UraniumBarTile.cs" />
     <Compile Include="Tiles\UraniniteOreTile.cs" />
+    <Compile Include="UI\DragableUIPanel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
@@ -82,6 +84,7 @@
     <Content Include=".gitignore" />
     <Content Include="build.txt" />
     <Content Include="description.txt" />
+    <Content Include="icon.png" />
     <Content Include="Items\Armor\UraniumSteelBreastplate.png" />
     <Content Include="Items\Armor\UraniumSteelBreastplate_Arms.png" />
     <Content Include="Items\Armor\UraniumSteelBreastplate_Body.png" />
@@ -102,6 +105,7 @@
     <Content Include="Tiles\SmallPaintingTile.png" />
     <Content Include="Tiles\UraniniteOreTile.png" />
     <Content Include="Tiles\UraniumBarTile.png" />
+    <Content Include="UI\pepe.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

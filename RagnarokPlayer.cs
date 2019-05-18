@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Terraria;
+﻿using Terraria;
 using Terraria.DataStructures;
-using Terraria.ID;
 using Terraria.ModLoader;
+using RagnarokMod.UI;
 
 namespace RagnarokMod
 {
@@ -14,13 +9,13 @@ namespace RagnarokMod
     {
         public override void Kill(double damage, int hitDirection, bool pvp, PlayerDeathReason damageSource)
         {
-            Main.NewText("Player has died! (Ragnarok Mod)");
+            DeathPepeUI.visible = true;
             base.Kill(damage, hitDirection, pvp, damageSource);
         }
 
         public override void OnRespawn(Player player)
         {
-            Main.NewText("Player has respawned! (Ragnarok Mod)");
+            DeathPepeUI.visible = false;
             base.OnRespawn(player);
         }
 
