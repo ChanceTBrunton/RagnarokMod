@@ -9,12 +9,12 @@ using Terraria.ModLoader;
 
 namespace RagnarokMod.Items.Placeable
 {
-    public class SmallPaintingItem : ModItem
+    public class PaintingMamiItem : ModItem
     {
         public override void SetStaticDefaults()
         {
-            DisplayName.SetDefault("A smaller test painting.");
-            Tooltip.SetDefault("Insert placeholder text here.");
+            DisplayName.SetDefault("Mami Sasazaki");
+            Tooltip.SetDefault("Lead guitarist of Scandal!");
         }
         public override void SetDefaults()
         {
@@ -30,7 +30,7 @@ namespace RagnarokMod.Items.Placeable
             item.UseSound = SoundID.Item1;
             item.autoReuse = true;
             item.consumable = true;
-            item.createTile = mod.TileType("SmallPaintingTile");
+            item.createTile = mod.TileType("PaintingMamiTile");
             item.maxStack = 999;
         }
 

@@ -12,7 +12,7 @@ using Terraria.DataStructures;
 
 namespace RagnarokMod.Tiles
 {
-    public class SmallPaintingTile : ModTile
+    public class PaintingMamiTile : ModTile
     {
         public override void SetDefaults()
         {
@@ -21,7 +21,7 @@ namespace RagnarokMod.Tiles
             Main.tileLighted[Type] = true; // allows block to emit light, see ModifyLight() method
   
             TileObjectData.newTile.CopyFrom(TileObjectData.Style3x3Wall);
-            TileObjectData.newTile.Height = 2;
+            TileObjectData.newTile.Height = 3;
             TileObjectData.newTile.Width = 3; 
             //TileObjectData.newTile.CoordinateHeights = new int[] { 360 };//, 16, 16 };
             //TileObjectData.newTile.CoordinateWidth = 252;
@@ -29,15 +29,15 @@ namespace RagnarokMod.Tiles
             //TileObjectData.newTile.Origin = new Point16(0,0);
             TileObjectData.addTile(Type);
 
-            drop = mod.ItemType("SmallPaintingItem"); // what item drops after destroying the tile
+            drop = mod.ItemType("PaintingMamiItem"); // what item drops after destroying the tile
             soundType = 21;
             soundStyle = 1;
             //mineResist = 4f;
             //minPick = 200; // minimum pickaxe power needed to mine
 
             ModTranslation name = CreateMapEntryName();
-            name.SetDefault("A Small Painting");
-            AddMapEntry(new Color(175, 13, 166), name);
+            name.SetDefault("Mami Sasazaki Painting");
+            AddMapEntry(new Color(170, 60, 160), name);
         }
 
         // set the color of light emitted
