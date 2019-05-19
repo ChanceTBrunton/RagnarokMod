@@ -21,6 +21,11 @@ namespace RagnarokMod
                 deathPepeUI.Initialize();
                 pepeInterface = new UserInterface();
                 pepeInterface.SetState(deathPepeUI);
+
+                // add equip textures for power armor
+                AddEquipTexture(new Items.Armor.powerArmorHead(), null, EquipType.Head, "powerArmorHead", "RagnarokMod/Items/Armor/UraniumSteelHelmet_Head");
+                AddEquipTexture(new Items.Armor.powerArmorBody(), null, EquipType.Body, "powerArmorBody", "RagnarokMod/Items/Armor/UraniumSteelBreastplate_Body", "RagnarokMod/Items/Armor/UraniumSteelBreastplate_Arms");
+                AddEquipTexture(new Items.Armor.powerArmorLegs(), null, EquipType.Legs, "powerArmorLegs", "RagnarokMod/Items/Armor/UraniumSteelLeggings_Legs");
             }
         }
 

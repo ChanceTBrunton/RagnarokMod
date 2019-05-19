@@ -34,6 +34,8 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Buffs\powerArmorBuff.cs" />
+    <Compile Include="Items\Armor\PowerArmorFrameItem.cs" />
     <Compile Include="UI\DeathPepeUI.cs" />
     <Compile Include="Items\Armor\UraniumSteelBreastplate.cs" />
     <Compile Include="Items\Armor\UraniumSteelLeggings.cs" />
@@ -89,6 +91,7 @@
     <Content Include="Items\Armor\UraniumSteelBreastplate_Arms.png" />
     <Content Include="Items\Armor\UraniumSteelBreastplate_Body.png" />
     <Content Include="Items\Armor\UraniumSteelBreastplate_FemaleBody.png" />
+    <Content Include="Items\Armor\PowerArmorFrameItem.png" />
     <Content Include="Items\Armor\UraniumSteelHelmet.png" />
     <Content Include="Items\Armor\UraniumSteelHelmet_Head.png" />
     <Content Include="Items\Armor\UraniumSteelLeggings.png" />
