@@ -14,7 +14,7 @@
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>AnyCPU</PlatformTarget>
+    <PlatformTarget>x86</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -36,6 +36,7 @@
   <ItemGroup>
     <Compile Include="Buffs\powerArmorBuff.cs" />
     <Compile Include="Items\Armor\PowerArmorFrameItem.cs" />
+    <Compile Include="NPCs\MorpheusNPC.cs" />
     <Compile Include="UI\DeathPepeUI.cs" />
     <Compile Include="Items\Armor\UraniumSteelBreastplate.cs" />
     <Compile Include="Items\Armor\UraniumSteelLeggings.cs" />
@@ -103,6 +104,7 @@
     <Content Include="Items\Placeable\UraniniteOreItem.png" />
     <Content Include="Items\Placeable\UraniumBarItem.png" />
     <Content Include="Items\UraniumSteelPickaxe.png" />
+    <Content Include="NPCs\MorpheusNPC.png" />
     <Content Include="Sounds\Item\NuclearLaunch.mp3" />
     <Content Include="Sounds\Item\NuclearLaunchSound.wav" />
     <Content Include="Tiles\PaintingSummerBeautyTile.png" />
