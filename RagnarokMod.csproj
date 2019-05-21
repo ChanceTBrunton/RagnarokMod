@@ -105,6 +105,7 @@
     <Content Include="Items\Placeable\UraniumBarItem.png" />
     <Content Include="Items\UraniumSteelPickaxe.png" />
     <Content Include="NPCs\MorpheusNPC.png" />
+    <Content Include="NPCs\MorpheusNPC_Head.png" />
     <Content Include="Sounds\Item\NuclearLaunch.mp3" />
     <Content Include="Sounds\Item\NuclearLaunchSound.wav" />
     <Content Include="Tiles\PaintingSummerBeautyTile.png" />
