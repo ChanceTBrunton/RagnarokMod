@@ -34,8 +34,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Buffs\MountBuffs\RarityMountBuff.cs" />
     <Compile Include="Buffs\powerArmorBuff.cs" />
     <Compile Include="Items\Armor\PowerArmorFrameItem.cs" />
+    <Compile Include="Items\MountSummons\RarityMountItem.cs" />
+    <Compile Include="Mounts\RarityMount.cs" />
     <Compile Include="NPCs\MorpheusNPC.cs" />
     <Compile Include="UI\DeathPepeUI.cs" />
     <Compile Include="Items\Armor\UraniumSteelBreastplate.cs" />
@@ -85,6 +88,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
+    <Content Include="Buffs\MountBuffs\RarityMountBuff.png" />
+    <Content Include="Buffs\powerArmorBuff.png" />
     <Content Include="build.txt" />
     <Content Include="description.txt" />
     <Content Include="icon.png" />
@@ -98,6 +103,7 @@
     <Content Include="Items\Armor\UraniumSteelLeggings.png" />
     <Content Include="Items\Armor\UraniumSteelLeggings_Legs.png" />
     <Content Include="Items\FissionBombItem.png" />
+    <Content Include="Items\MountSummons\RarityMountItem.png" />
     <Content Include="Items\MyFirstItem.png" />
     <Content Include="Items\Placeable\PaintingMamiItem.png" />
     <Content Include="Items\Placeable\PaintingSummerBeautyItem.png" />

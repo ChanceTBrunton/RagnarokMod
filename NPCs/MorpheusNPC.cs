@@ -190,7 +190,7 @@ namespace ExampleMod.NPCs
             chat.Add(start + "how hot Sandra Bullock was in the 90s." + end);
             chat.Add(start + "how to make a mod." + end);
             chat.Add(start + "how much wood would a woodchuck chuck if a woodchuck could chuck wood." + end);
-            chat.Add(start + "how many licks it takes to get to the center of a lollipop." + end);
+            chat.Add(start + "how many licks it takes to get to the tootsie roll center of a tootsie pop ." + end);
             chat.Add(start + "how magnets work." + end);
             chat.Add(start + "where to find a boat. You have to see if you can find it for yourself.");
             chat.Add(start + "where in the world Carmen Sandiego is. You have to find her for yourself.");
